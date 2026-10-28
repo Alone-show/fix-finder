@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Firmware Fix Finder",
+    "description": "Locate likely fix commits from the latest commit logs on alist, tell whether the fix shipped in a release build, and compare coverage across models and operating systems."
+  }
+}

@@ -1,0 +1,10 @@
+2026-10-26-17:20:50|shujiawei|chore(DO-8626): update cp-ota and mcutools package versions|d9d6cd3e
+2026-09-24-11:58:32|wenchao.sun|feat(common): DO-8491 修复infineon驱动对应所有模组型号，使用wifi命令开关wifi导致的wifi崩溃问题|614b2e99
+2026-09-22-19:56:25|xin peng|feat(cp-sp2-10pro): DO-8486 更新cpbase到2.0.6，更新cpcomm到2.0.6.1，更新cpmedia到2.0.6，更新cputils到2.0.6，更新CP_TOOLKIT_VERSION到1.0.3.9，更新CP_EEPROM_VERSION到1.3.2，更新cit到2.9.16， 更新CP_QT5_VERSION到5.15.2-1, 更新CPAntennaTester到1.0.3|db5ad220
+2026-08-31-20:05:19|wenchao.sun|feat(common): 修复CIF驱动REQBUFS时cif_fmt_out空指针导致的kernel panic|92cf9c82
+2026-07-21-15:42:02|wanghang|feat(common): DO-7778 解决camera 热插拔出现图像断层问题|8b959775
+2026-07-02-17:38:10|SunWenchao|feat(common): Revert "feat(common): DO-7171 启用cif monitor 尝试解决画面断层问题"|7bad9a61
+2026-07-21-15:42:02|wanghang|feat(common): DO-7778 解决camera 热插拔出现图像断层问题|8b959775
+2026-01-21-11:07:00|阿东|请问这个gnss是每台设备都带吗
+2026-01-21-11:09:00|阿东|请问这个gnss是每台设备都带吗|not-a-hash
+not a commit log line at all

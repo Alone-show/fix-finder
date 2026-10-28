@@ -1,0 +1,43 @@
+{
+  "name": "@local/fix-finder",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 插件：按 bug 现象在 alist 各产品线最新正式构建的 commit log 里定位疑似修复，判断是否已发版，并比对其它机型/系统/芯片",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alone-show/fix-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alone-show/fix-finder/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "commit-log",
+    "alist",
+    "firmware",
+    "bug-fix"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "lib/*",
+    "cordis.patch.yml",
+    "keywords.json",
+    "locale/*.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "it": "node scripts/it.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+.fixfinder/
+.DS_Store
+*.log
